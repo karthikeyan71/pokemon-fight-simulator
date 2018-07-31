@@ -1,0 +1,64 @@
+<html>
+    
+    <head>
+        <title> Coding Challenge </title>
+    
+        <style>
+        
+            div.master_holder
+            {
+                width:400px;
+                height:300px;
+                margin:0 auto;
+            }
+            
+            input[type=text]
+            {
+                width:300px;
+                padding:10px;
+                margin:10px;
+            }
+            
+            button
+            {
+                margin:10px;
+                border:1px solid grey;
+                background: transparent;
+                padding:10px 40px;
+            }
+            
+            #appender
+            {
+                margin: 10px;
+            }
+            
+            .status
+            {
+                text-transform: capitalize;
+            }
+            
+        </style>
+        
+        <script src="jquery.js"></script>
+        <script src="challenge.js"></script>
+        
+    </head>
+    
+    <body>
+    
+        <div class="master_holder">
+        
+            <input type="text" id="box1" placeholder="Your pokens" value="Fire#10;Water#20;Fighting#6;Psychic#10;Electric#12"><br>
+            <input type="text" id="box2" Placeholder="Opponents pokens" value="Water#10;Fighting#10;Psychic#10;Fire#12;Grass#2"><br>
+        
+            <button class="start_fight"> Fight </button>
+            
+            <div id="appender">
+            </div>
+            
+        </div>
+    
+    </body>
+    
+    
+</html>
